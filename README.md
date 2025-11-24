@@ -28,3 +28,9 @@ img = Image.open(img_path).convert("RGB").resize((224, 224), Image.BICUBIC) # <-
 lr_feature = dinov2_infer(img_path) # <- any low resolution modalities (e.g. depth, Probability map, feature map)
 hr_feature = UPA(img, lr_feature) 
 ```
+
+### Acknowledgement
+
+```
+We sincerely thank [Young-Tack Oh](https://scholar.google.com/citations?user=fkjUawMAAAAJ&hl=ko) for checking the typos in our paper, and we also thank [Young-Jae Park](https://scholar.google.com/citations?user=eaT9X2MAAAAJ&hl=ko) for revising our figures.
+```
