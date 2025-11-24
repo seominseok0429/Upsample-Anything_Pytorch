@@ -6,4 +6,4 @@
 
 Minseok Seo, Mark Hamilton, Changick Kim
 
-[ :scroll: [`Paper`](https://arxiv.org/html/2511.16301v1)] [ :globe_with_meridians: [`Website`]([https://ai.meta.com/dinov3/](https://seominseok0429.github.io/Upsample-Anything/))] [ :book: [`BibTeX`](#-)]
+[ :scroll: [`Paper`](https://arxiv.org/html/2511.16301v1)] [ :globe_with_meridians: [`Website`](https://seominseok0429.github.io/Upsample-Anything/)] [ :book: [`BibTeX`](#-)]
