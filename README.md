@@ -32,3 +32,19 @@ hr_feature = UPA(img, lr_feature)
 ### Acknowledgement
 
 We sincerely thank [Young-Tack Oh](https://scholar.google.com/citations?user=fkjUawMAAAAJ&hl=ko) for checking the typos in our paper, and we also thank [Young-Jae Park](https://scholar.google.com/citations?user=eaT9X2MAAAAJ&hl=ko) for revising our figures.
+
+## Citing Upsample Anything
+
+If you find this repository useful, please consider giving a star :star: and citation :Upsample Anything::
+
+```
+@misc{seo2025upsampleanythingsimplehard,
+      title={Upsample Anything: A Simple and Hard to Beat Baseline for Feature Upsampling}, 
+      author={Minseok Seo and Mark Hamilton and Changick Kim},
+      year={2025},
+      eprint={2511.16301},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2511.16301}, 
+}
+```
