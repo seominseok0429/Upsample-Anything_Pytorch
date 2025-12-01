@@ -9,7 +9,7 @@ from PIL import Image
 
 device = "cuda" if torch.cuda.is_available() else "cpu"
 
-def dinov2_infer(img_path):
+def dinov2_infer(img):
     dinov2_vits14 = torch.hub.load('facebookresearch/dinov2', 'dinov2_vits14').to(device).eval()
 
     transform = T.Compose([
@@ -32,6 +32,6 @@ def dinov2_infer(img_path):
 if __name__ == "__main__":
     img_path = "sample.png"
     img = Image.open(img_path).convert("RGB").resize((224, 224), Image.BICUBIC)
-    lr_feature = dinov2_infer(img_path)
+    lr_feature = dinov2_infer(img)
     hr_feature = UPA(img, lr_feature)
     visualize_pca_one(hr_feature)
