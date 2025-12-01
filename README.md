@@ -46,6 +46,16 @@ hr_feature = UPA(img, lr_feature)
 
 </div>
 
+### Supports Not Only Feature Map Upsampling, but Any Modality Upsampling  (See prob_upsample.ipynb)
+
+<div align="center">
+  <img width="1364" height="1024" alt="modality" src="./img/modality.png" />
+
+  <i>
+    Our method is not limited to feature-map upsampling&mdash;it can also upsample 
+    probability maps, depth maps, and other modalities.
+  </i>
+
 ### Acknowledgement
 
 We sincerely thank [Young-Tack Oh](https://scholar.google.com/citations?user=fkjUawMAAAAJ&hl=ko) for checking the typos and revising figures in our paper, and we also thank [Young-Jae Park](https://scholar.google.com/citations?user=eaT9X2MAAAAJ&hl=ko) for revising our figures.
