@@ -39,6 +39,13 @@ hr_feature = UPA(img, lr_feature)
 
 ### Supports Not Only RGB Guidance but Any Modality (See Modality.ipynb)
 
+<div align="center"> <img width="1364" height="1024" alt="market" src="./img/comparison_all.png" />
+
+<i>Our method can operate not only with RGB guidance but with *any* modality (with only minimal code changes). The depth sample below was generated using **[Depth Pro](https://github.com/apple/ml-depth-pro)**.
+</i>
+
+</div>
+
 ### Acknowledgement
 
 We sincerely thank [Young-Tack Oh](https://scholar.google.com/citations?user=fkjUawMAAAAJ&hl=ko) for checking the typos and revising figures in our paper, and we also thank [Young-Jae Park](https://scholar.google.com/citations?user=eaT9X2MAAAAJ&hl=ko) for revising our figures.
