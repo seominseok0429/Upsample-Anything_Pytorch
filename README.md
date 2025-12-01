@@ -37,6 +37,7 @@ hr_feature = UPA(img, lr_feature)
 
 </div>
 
+### Supports Not Only RGB Guidance but Any Modality (See Modality.ipynb)
 
 ### Acknowledgement
 
