@@ -55,6 +55,7 @@ hr_feature = UPA(img, lr_feature)
     Our method is not limited to feature-map upsampling&mdash;it can also upsample 
     probability maps, depth maps, and other modalities.
   </i>
+</div>
 
 ### Acknowledgement
 
