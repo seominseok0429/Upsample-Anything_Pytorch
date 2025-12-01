@@ -29,6 +29,15 @@ lr_feature = dinov2_infer(img_path) # <- any low resolution modalities (e.g. dep
 hr_feature = UPA(img, lr_feature) 
 ```
 
+### Point Similarity Experiments (See Similarity.ipynb)
+
+<div align="center"> <img width="1364" height="1024" alt="market" src="./img/comparison_all.png" />
+
+<i>Our method not only upsamples features but also denoises them and reinforces coherent object-level grouping.</i>
+
+</div>
+
+
 ### Acknowledgement
 
 We sincerely thank [Young-Tack Oh](https://scholar.google.com/citations?user=fkjUawMAAAAJ&hl=ko) for checking the typos and revising figures in our paper, and we also thank [Young-Jae Park](https://scholar.google.com/citations?user=eaT9X2MAAAAJ&hl=ko) for revising our figures.
