@@ -45,7 +45,8 @@ def UPA(HR_img, lr_modaliry):
         if step == 50:
             break
 
-    with torch.inference_mode():
+    model.eval()
+    with torch.inference_mode(), torch.cuda.amp.autocast(enabled=USE_AMP, dtype=AMP_DTYPE):
         hr_feat = model(lr_modaliry, hr)
     return hr_feat
 
