@@ -31,7 +31,7 @@ lr_feature = dinov2_infer(img_path) # <- any low resolution modalities (e.g. dep
 hr_feature = UPA(img, lr_feature) 
 ```
 
-### Point Similarity Experiments (See Similarity.ipynb)
+### Point Similarity Experiments (See cookbooks/Similarity.ipynb)
 
 <div align="center"> <img width="1364" height="1024" alt="market" src="./img/comparison_all.png" />
 
@@ -39,7 +39,7 @@ hr_feature = UPA(img, lr_feature)
 
 </div>
 
-### Supports Not Only RGB Guidance but Any Modality (See Modality.ipynb)
+### Supports Not Only RGB Guidance but Any Modality (See cookbooks/Modality.ipynb)
 
 <div align="center"> <img width="1364" height="1024" alt="market" src="./img/modality.png" />
 
@@ -48,7 +48,7 @@ hr_feature = UPA(img, lr_feature)
 
 </div>
 
-### Supports Not Only Feature Map Upsampling, but Any Modality Upsampling  (See prob_upsample.ipynb)
+### Supports Not Only Feature Map Upsampling, but Any Modality Upsampling  (See cookbooks/prob_upsample.ipynb)
 
 <div align="center">
   <img width="1364" height="1024" alt="modality" src="./img/prob.png" />
