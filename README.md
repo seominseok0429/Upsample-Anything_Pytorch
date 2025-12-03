@@ -65,7 +65,7 @@ hr_feature = UPA(img, lr_feature)
   <img width="1364" height="1024" alt="modality" src="./img/segov.png" />
 
   <i>
-    By applying our method to Segearth OV, which has made significant contributions to OV segmentation for satellite imagery, we can achieve even sharper and more refined results**[SegEarth-OV](https://likyoo.github.io/SegEarth-OV/)**
+    By applying our method to Segearth OV, which has made significant contributions to OV segmentation for satellite imagery, we can achieve even sharper and more refined results **[SegEarth-OV](https://likyoo.github.io/SegEarth-OV/)**
   </i>
 </div>
 
