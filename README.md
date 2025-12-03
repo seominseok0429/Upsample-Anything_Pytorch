@@ -71,7 +71,7 @@ hr_feature = UPA(img, lr_feature)
 
 ### Acknowledgement
 
-We sincerely thank [Young-Tack Oh](https://scholar.google.com/citations?user=fkjUawMAAAAJ&hl=ko) for checking the typos and revising figures in our paper, and we also thank [Young-Jae Park](https://scholar.google.com/citations?user=eaT9X2MAAAAJ&hl=ko) for revising our figures.
+We sincerely thank [Young-Tack Oh](https://scholar.google.com/citations?user=fkjUawMAAAAJ&hl=ko) for checking the typos and revising figures in our paper, and we also thank [Young-Jae Park](https://scholar.google.com/citations?user=eaT9X2MAAAAJ&hl=ko) for revising our figures. **[SegEarth-OV](https://likyoo.github.io/SegEarth-OV/)**
 
 ## Citing Upsample Anything
 
